@@ -17,7 +17,7 @@ static void CannyThreshold(int, void*)
 	src.copyTo(dst, detected_edges);
 	imshow(window_name, dst);
 }
-int main(int argc, char** argv)
+int main2(int argc, char** argv)
 {
 	//CommandLineParser parser(argc, argv, "{@input | fruits.jpg | input image}");
 	//src = imread(samples::findFile(parser.get<String>("@input")), IMREAD_COLOR); // Load an image

@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="CannyEdgeDetector.cpp" />
     <ClCompile Include="hello_OpenCV_Project.cpp" />
+    <ClCompile Include="Hit-or-Miss.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\Pictures\Picture1.jpg" />
