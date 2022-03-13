@@ -77,7 +77,7 @@ void detectAndDisplay(Mat frame)
         {
             Point eye_center(faces[i].x + eyes[j].x + eyes[j].width / 2, faces[i].y + eyes[j].y + eyes[j].height / 2);
             int radius = cvRound((eyes[j].width + eyes[j].height) * 0.25);
-            circle(frame, eye_center, radius, Scalar(255, 0, 0), 4);
+            circle(frame, eye_center, radius, Scalar(125, 125, 0), 4);
         }
     }
     //-- Show what you got
