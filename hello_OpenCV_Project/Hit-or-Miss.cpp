@@ -2,7 +2,7 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
 using namespace cv;
-int main() {
+int main3() {
 	Mat input_image = (Mat_<uchar>(8, 8) <<
 		0, 0, 0, 0, 0, 0, 0, 0,
 		0, 255, 255, 255, 0, 0, 0, 255,
